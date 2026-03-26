@@ -1,0 +1,264 @@
+---
+title: "Elevate Play with Advanced Pickleball Strategies"
+date: '2024-04-03T18:09:23'
+slug: "elevate-play-with-advanced-pickleball-strategies"
+featured_image: ""
+categories: ["guides"]
+author: "fitnest33"
+excerpt: 'Unlock your potential on the court with Advanced Pickleball Strategies: Taking Your Game to the Next Level. Master winning tactics today!
+...'
+---
+
+<p>Did you know that the sport of pickleball has experienced tremendous growth in recent years, with over 3.3 million participants in the United States alone? As the popularity of pickleball continues to soar, players are constantly looking for ways to improve their skills and compete at a higher level.</p>
+<p>In this article, we will explore advanced <b>pickleball strategies</b> that can take your game to the next level. From developing a <b>versatile attack arsenal</b> to mastering the forehand and backhand roll, we will delve into the techniques and techniques that will <b>elevate your pickleball game</b> and help you outsmart your opponents on the court.</p>
+<h3>Key Takeaways:</h3>
+<ul>
+<li>Develop a <b>versatile attack arsenal</b> to make your gameplay more unpredictable.</li>
+<li>Master the forehand and backhand roll to create defensive shifts in your opponents\&#8217; posture.</li>
+<li>Perfect the reset shot to recover from disadvantageous positions and regain control.</li>
+<li>Expand your skill set to blend power with finesse and become a well-rounded player.</li>
+<li>Identify and develop your play style to compete better at higher levels.</li>
+</ul>
+<h2>Developing a Versatile Attack Arsenal</h2>
+<p>To elevate your game to the competitive realm of 4.5, it’s important to diversify and refine your attacking strategies. This includes developing a two-handed backhand and the ability to engage in aggressive plays from various positions on the court. Having a broad arsenal of comfortable shots with varying levels of power and spin will make your gameplay more unpredictable and difficult to counter.</p>
+<p>Mastering the art of a two-handed backhand can significantly enhance your <b>advanced pickleball proficiency</b>. This shot provides greater control and maneuverability, allowing you to place the ball precisely where you want it. It\&#8217;s a versatile stroke that enables you to execute both defensive and offensive shots, empowering you to adapt to different situations during a match.</p>
+<p>Expanding your attack arsenal goes beyond just mastering the two-handed backhand. It involves developing the ability to execute aggressive plays from different positions on the court. This proficiency enables you to put pressure on your opponents, keeping them on their toes and forcing them to respond to your strategic moves.</p>
+<p>By honing your attacking skills, you expand your versatility on the court, making it more challenging for your opponents to anticipate your shots. This advantage creates opportunities for you to capitalize on weak returns and control the pace of the game. Whether you\&#8217;re unleashing powerful drives, executing precise drop shots, or incorporating strategic lobs, your advanced arsenal will keep your opponents guessing and give you the upper hand.</p>
+<p>Remember, developing a <b>versatile attack arsenal</b> is a continuous process that requires practice and experimentation. Take the time to refine your shots, adapt to different playing conditions, and strategically expand your repertoire. With dedication and perseverance, you\&#8217;ll <b>elevate your pickleball game</b> to new heights.</p>
+<h2>Mastering the Forehand and Backhand Roll</h2>
+<p>Becoming a skilled player in advanced pickleball involves mastering various shots, including the <em>forehand and backhand roll</em>. These topspin shots are crucial for players looking to elevate their game to a 4.5 level and beyond.</p>
+<p>When executing the forehand and backhand roll, you impart a <em>forward spin</em> to the ball, making it more challenging for your opponents to return effectively. This forward spin creates a <em>defensive shift</em> in your opponents\&#8217; posture, putting you in control of the game.</p>
+<p>The <em>forehand roll</em> is a powerful weapon that allows you to attack the opponents\&#8217; weaknesses and keep them on the defensive. By utilizing topspin on your forehand, you can create a ball trajectory that dips quickly over the net, making it difficult for your opponents to handle. This shot is particularly effective when executed with speed, accuracy, and the element of surprise.</p>
+<p>On the other hand, the <em>backhand roll</em> is equally important for maintaining a versatile and unpredictable gameplay. It enables you to hit aggressive shots with topspin from various positions on the court, including when the ball is close to your body or reaching for wide shots. This shot requires proper footwork, grip technique, and body rotation to generate optimal spin and power.</p>
+<p>Mastering the forehand and backhand roll not only improves your offensive capabilities but also helps you maintain control of the <em>kitchen</em>, a critical zone for dictating the flow and outcome of rallies in pickleball. By consistently executing topspin shots, you can put your opponents on the backfoot and seize control of the game.</p>
+<p><img src="https://koalapickleball.com/wp-content/uploads/2024/04/Forehand-and-backhand-roll-in-Pickleball-1024x585.jpg" alt="Forehand and backhand roll in Pickleball" title="Forehand and backhand roll in Pickleball" width="800" height="457" class="aligncenter size-large wp-image-285" /></p>
+<blockquote><p> \&#8221;The forehand and backhand roll shots in pickleball are pivotal for maintaining control over the game and keeping opponents on their toes.\&#8221; </p></blockquote>
+<p>Developing proficiency in <b>advanced pickleball topspin</b> requires practice and repetition. Focus on refining your technique, footwork, and timing to ensure consistent and effective execution. Incorporate topspin shots into your practice sessions and game situations to gain confidence and improve your gameplay.</p>
+<table>
+<thead>
+<tr>
+<th>Key Benefits of the Forehand and Backhand Roll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Creates a forward spin that makes the ball more challenging to return</td>
+</tr>
+<tr>
+<td>Allows you to attack opponents\&#8217; weaknesses and keep them on the defensive</td>
+</tr>
+<tr>
+<td>Enables aggressive shots with topspin from various positions on the court</td>
+</tr>
+<tr>
+<td>Helps maintain control of the kitchen, a critical zone in pickleball</td>
+</tr>
+</tbody>
+</table>
+<h2>Perfecting the Reset</h2>
+<p>The reset shot is an essential technique in advanced pickleball, serving as a valuable tool to regain control and turn the tide of the game. It allows players to recover from disadvantageous positions and strategically position themselves for success. By executing consistent resets from any area of the court, you can prevent point losses and effectively reset the board, putting yourself in a position of power. This defensive maneuver is a game-changer that can shift the momentum of the match in your favor.</p>
+<p>Resetting the board requires precision and timing. To execute the reset shot effectively, focus on the following key elements:</p>
+<h3>1. Placement:</h3>
+<p>When executing a reset shot, aim for strategic placement that creates difficulty for your opponents. By placing the ball deep into their backcourt, you force them to make a challenging return, granting you time to recover and set up your next shot. Aim for the corners or sidelines to exploit gaps in their defensive position.</p>
+<h3>2. Soft Touch:</h3>
+<p>The reset shot is characterized by a soft touch with minimal power. Use finesse instead of force to keep the ball low over the net, making it harder for opponents to attack or gain an advantage. Employing a gentle touch with your paddle will allow you to control the shot and dictate the rhythm of the game.</p>
+<h3>3. Change of Pace:</h3>
+<p>Surprise your opponents by varying the pace of your reset shots. Mixing up the speed and trajectory of your shots can disrupt their rhythm and make it challenging for them to anticipate your next move. By alternating between faster and slower resets, you keep them guessing and maintain control of the game tempo.</p>
+<p>The reset shot is a valuable tool in any pickleball player\&#8217;s arsenal. By mastering this technique, you can not only reset the board but also gain a strategic advantage over your opponents. It allows you to regain control, dictate play, and ultimately increase your chances of success on the court.</p>
+<blockquote>
+<p>\&#8221;The reset shot is like pressing the reset button on a game. It gives you the opportunity to start anew and regain control of the match.\&#8221; &#8211; Sarah Thompson, professional pickleball player</p>
+</blockquote>
+<p>Remember to practice the reset shot in various game situations, honing your accuracy and developing the ability to execute it under pressure. By perfecting this important shot in pickleball, you will be well-equipped to handle challenging situations and keep your opponents on their toes.</p>
+<table>
+<tr>
+<th>Advantages of the Reset Shot</th>
+<th>Disadvantages of the Reset Shot</th>
+</tr>
+<tr>
+<td>&#8211; Allows you to regain control<br />&#8211; Gives you time to recover<br />&#8211; Causes confusion for opponents<br />&#8211; Sets the pace of the game</td>
+<td>&#8211; Requires precise placement<br />&#8211; Relies on finesse rather than power<br />&#8211; Can be predictable if overused</td>
+</tr>
+</table>
+<h2>Expanding Your Skill Set for Power Players</h2>
+<p><b>Power players in pickleball</b>, such as former tennis athletes, possess the advantage of strength and power on the court. However, to succeed at the 4.5 level, power players must adapt and expand their skill set to maximize their potential and outplay opponents. By incorporating a combination of finesse and power, power players can become well-rounded athletes in the game of pickleball.</p>
+<h3>Consistently executing a precise third-shot drop</h3>
+<p>One essential skill for power players to develop is the ability to consistently execute a precise <b>third-shot drop</b>. The <b>third-shot drop</b> is a strategic shot that helps power players regain control of the kitchen and set up a strong offensive position. By softly placing the ball into the opponent\&#8217;s non-volley zone, power players can disrupt their opponents\&#8217; rhythm and force them into defensive positions.</p>
+<h3>Mastering transition play</h3>
+<p>Transition play is another crucial aspect that power players should focus on. Transitioning from the baseline to the non-volley zone quickly and efficiently allows power players to maintain control of the game. By mastering transition play, power players can effectively capitalize on opportunities to attack the opponents and maintain a dominant position on the court.</p>
+<h3>Employing strategic dinking</h3>
+<p>In addition to power shots, power players should also develop their <b>dinking</b> skills. <b>Dinking</b> is a finesse shot that involves hitting the ball softly and close to the net, allowing power players to tactically outmaneuver their opponents. By incorporating strategic <b>dinking</b> into their gameplay, power players can create openings, force opponents out of position, and set up opportunities for powerful winners.</p>
+<blockquote><p>Remember, as a power player, it\&#8217;s crucial to blend power with finesse in order to succeed at the 4.5 level in pickleball.</p></blockquote>
+<p><div class="ast-oembed-container " style="height: 100%;"><iframe title="5 doubles tactics to take YOUR GAME to the NEXT LEVEL!!" width="500" height="281" src="https://www.youtube.com/embed/YRcglMBgSXM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</p>
+<table>
+<tr>
+<th>Skills</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Precise <b>Third-Shot Drop</b></td>
+<td>The ability to consistently execute a soft and accurate shot that drops into the opponent\&#8217;s non-volley zone, disrupting their rhythm and setting up a dominant position.</td>
+</tr>
+<tr>
+<td>Mastering Transition Play</td>
+<td>Efficiently transitioning from the baseline to the non-volley zone to maintain control of the game and capitalize on attacking opportunities.</td>
+</tr>
+<tr>
+<td>Strategic Dinking</td>
+<td>Employing finesse shots close to the net to outmaneuver opponents, create openings, and set up powerful winners.</td>
+</tr>
+</table>
+<h2>Identifying and Developing Your Play Style</h2>
+<p>Understanding your natural play style is key to excelling in pickleball. By recognizing your strengths and weaknesses, you can strategically develop your skills and adapt your gameplay to suit your style. This section will explore ways to identify and enhance your play style in order to reach new levels of performance.</p>
+<p><img src="https://koalapickleball.com/wp-content/uploads/2024/04/Developing-your-play-style-in-Pickleball-1024x585.jpg" alt="Developing your play style in Pickleball" title="Developing your play style in Pickleball" width="800" height="457" class="aligncenter size-large wp-image-286" /></p>
+<h3>Discovering Your Play Style</h3>
+<p>Each player brings a unique set of abilities and preferences to the pickleball court. Some players excel in aggressive tactics, while others prefer a more defensive approach. Identifying your preferred play style can help you make conscious decisions about shot selection, movement, and overall strategy.</p>
+<p>Take the time to assess your strengths and weaknesses. Are you naturally inclined towards power plays, accurate placement, or quick reflexes? Do you thrive in fast-paced rallies or prefer to control the game\&#8217;s tempo? Reflecting on these aspects will guide you in defining your play style.</p>
+<h3>Developing Your Skills</h3>
+<p>Once you have a better understanding of your play style, it\&#8217;s time to develop and refine your skills accordingly.</p>
+<blockquote>
+<p><em>\&#8221;Your strengths define your style, but your weaknesses determine your limit.\&#8221;</em></p>
+</blockquote>
+<p>If you\&#8217;re already proficient in power plays, consider expanding your attack range and experimenting with strategic spins to further emphasize your play style. Conversely, if you lean towards accuracy and finesse, focus on mastering reset shots and incorporating deceptive dinks into your repertoire.</p>
+<p>Don\&#8217;t be afraid to step out of your comfort zone and develop skills that are less familiar to you. By broadening your skill set, you become a more well-rounded player capable of adapting to different game situations.</p>
+<h3>Adapting to Different Opponents</h3>
+<p>While it\&#8217;s important to have a defined play style, it\&#8217;s equally crucial to be adaptable and responsive to different opponents. Analyze your competitors\&#8217; play styles and adjust your strategy accordingly.</p>
+<p>Against players who favor aggressive tactics, your defensive skills and ability to counterattack will be put to the test. On the other hand, when facing opponents with a preference for finesse, mastering your net play and anticipation will give you an edge.</p>
+<p>Rather than rigidly sticking to one play style, incorporating elements from different styles into your game can provide you with versatility and unpredictability, making it more challenging for opponents to counter your moves.</p>
+<p>Developing your play style is an ongoing process. Continually evaluate and refine your skills based on your performance, feedback from coaches or partners, and observations from your matches. The key is to find a balance between emphasizing your strengths and adapting to different opponents, ultimately creating a unique and effective playing style.</p>
+<h2>Effective Communication</h2>
+<p>Clear communication between doubles partners is crucial for a successful team. Consistently discussing shot choices, preferred positions, and responsibilities during gameplay can greatly enhance team performance and coordination on the court.</p>
+<p>During a pickleball game, effective communication allows doubles partners to make quick and informed decisions. It ensures that both players are on the same page and reduces the chances of confusion or misunderstanding. By openly discussing shot choices, players can align their strategies and adapt to the flow of the game.</p>
+<p>Clearing communicating preferred positions is essential for doubles teams to coordinate their movements on the court. By clearly indicating who will take the forehand or the backhand, players can avoid collisions and maximize their effectiveness in covering the court.</p>
+<p>Responsibilities in doubles play can extend beyond hitting shots. Communicating responsibilities, such as who will take the middle shots during poaching or who will cover lobs, ensures that both players are aware of their role in different game situations.</p>
+<blockquote><p>Consistent communication is the key to success. By openly expressing shot choices, preferred positions, and responsibilities, doubles partners can develop a seamless and cohesive playing style.</p></blockquote>
+<p>By fostering clear and effective communication, teams can improve their overall performance. It builds trust between partners, decreases miscommunication errors, and allows for coordinated tactics. Good communication can lead to successful shot placements, clever strategy implementation, and ultimately, more wins.</p>
+<p><div class="ast-oembed-container " style="height: 100%;"><iframe title="Partner Communication - Mini-Lesson by Sarah Ansboury" width="500" height="281" src="https://www.youtube.com/embed/nGpJrrZhs_E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</p>
+<h2>Mastering Stacking</h2>
+<p>In the world of pickleball, stacking is an essential technique used by doubles partners to maximize their strengths and minimize their weaknesses on the court. It involves both players standing on the same side of the court, strategically positioning themselves to create a winning advantage.</p>
+<p>To execute effective stacking, it\&#8217;s important to determine which player has a stronger forehand and backhand. This assessment allows the team to assign positions that play to each player\&#8217;s strengths, enhancing their ability to make powerful shots and control the game.</p>
+<p>Throughout the match, players should seamlessly shift positions as needed, adapting to the flow of the game. This dynamic movement allows for flexibility and ensures that both players are positioned optimally to handle any situation that arises.</p>
+<p>By mastering stacking, doubles partners can create a formidable force on the court, combining their strengths to dominate rallies and outmaneuver opponents. It\&#8217;s a strategic approach that enhances teamwork and increases the chances of winning matches.</p>
+<p>Take a look at the table below to see an example of how stacking can benefit different player combinations:</p>
+<table>
+<tr>
+<th>Player</th>
+<th>Forehand Strength</th>
+<th>Backhand Strength</th>
+<th>Preferred Position</th>
+</tr>
+<tr>
+<td>Player A</td>
+<td>Strong</td>
+<td>Weak</td>
+<td>Left (Ad-Side)</td>
+</tr>
+<tr>
+<td>Player B</td>
+<td>Weak</td>
+<td>Strong</td>
+<td>Right (Deuce-Side)</td>
+</tr>
+</table>
+<p>As shown in the table, Player A has a stronger forehand, making the left (Ad-Side) their preferred position. Player B, on the other hand, excels in their backhand, making the right (Deuce-Side) their optimal position. By positioning themselves accordingly, they can fully leverage their skills, leading to a more effective and cohesive gameplay.</p>
+<p>Mastering stacking is crucial for doubles partners looking to elevate their pickleball game. It\&#8217;s a strategic technique that enhances communication, cooperation, and ultimately, the chances of success on the court. So, practice this technique with your partner and watch your gameplay reach new heights.</p>
+<h2>Smart Shot Selection</h2>
+<p>Advanced doubles play in pickleball requires a strategic approach to shot selection. By assessing your opponents\&#8217; weaknesses, you can capitalize on their vulnerabilities and gain a competitive edge on the court.</p>
+<p>One key shot that can make a significant impact is the <em>third-shot drop</em>. This shot is executed after your team serves and the opponents return the ball. By placing a well-calculated drop shot just over the net, you force your opponents to move forward, putting them in a defensive position. This shot sets up your team to regain control of the game and potentially win the point.</p>
+</p>
+<p>Another effective strategy is engaging in <em>dinking rallies</em>. Dinking involves hitting soft shots just over the net, keeping the ball low and close to the net. This technique requires finesse and precision, making it challenging for opponents to return. Dinking can disrupt their rhythm, frustrate their gameplay, and create opportunities for errors or weak returns.</p>
+<p>Furthermore, targeting the <em>middle of the court</em> can create confusion and potential errors for your opponents. By hitting shots that land in the center, you force your opponents to make a quick decision, often resulting in miscommunication and missed shots. Attacking the middle disrupts their positioning and reduces their ability to cover the entire court effectively.</p>
+<blockquote>
+<p>\&#8221;Smart shot selection in pickleball involves assessing your opponents\&#8217; weaknesses and strategically executing shots that exploit those vulnerabilities.\&#8221; &#8211; Professional Pickleball Player</p>
+</blockquote>
+<p>When making shot selections, it\&#8217;s essential to analyze the game situation, read your opponents, and adapt your strategy accordingly. By incorporating a mix of third-shot drops, dinking rallies, and attacks to the middle, you can keep your opponents guessing and maintain control of the game.</p>
+<h2>Conclusion</h2>
+<p>By incorporating advanced <b>pickleball strategies</b> into your gameplay, such as effective communication, stacking, smart shot selection, and strategic positioning, you and your doubles partner can elevate your game to new heights. These techniques will not only enhance your performance on the court but also allow you to outsmart opponents and gain a competitive edge.</p>
+<p>Practicing these strategies consistently will refine your gameplay and enable you to adapt to different match situations. By mastering effective communication, you can better coordinate with your partner and make split-second decisions that will ensure success. Stacking, on the other hand, will maximize both players\&#8217; strengths and create a dynamic duo capable of handling any challenge.</p>
+<p>Furthermore, smart shot selection and strategic positioning are essential to keep your opponents guessing and exploit their weaknesses. By engaging in dinking rallies, executing well-placed third-shot drops, and attacking the middle of the court, you can create confusion and force errors, effectively dominating the game.</p>
+<p>So, gear up, practice consistently, and implement these advanced strategies to <b>elevate your pickleball game</b>. With dedication and perseverance, you\&#8217;ll see a noticeable improvement in your skills, allowing you to thrive in competitive matches and achieve greater success on the court.</p>
+<section class="schema-section">
+<h2>FAQ</h2>
+<div>
+<h3>What skills should I focus on to elevate my pickleball game to an advanced level?</h3>
+<div>
+<div>
+<p>To elevate your game to an advanced level, it\&#8217;s important to develop a versatile attack arsenal, master a wide range of shots, and focus on the forehand and backhand roll. These skills will enhance your gameplay, make it more difficult for opponents to predict your moves, and increase your chances of winning points.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>How can I diversify and refine my attacking strategies in pickleball?</h3>
+<div>
+<div>
+<p>To diversify and refine your attacking strategies, focus on developing a two-handed backhand and the ability to engage in aggressive plays from various positions on the court. Having a broad arsenal of comfortable shots with varying levels of power and spin will make your gameplay more unpredictable and difficult to counter.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>What is the significance of topspin shots in advanced pickleball?</h3>
+<div>
+<div>
+<p>Topspin shots, specifically the forehand and backhand roll, are crucial in advanced pickleball. These shots impart a forward spin to the ball, making it more challenging for opponents to return effectively. By using topspin shots, you create a defensive shift in your opponents\&#8217; posture, allowing you to maintain control of the kitchen – a critical zone for dictating the flow and outcome of rallies in pickleball.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>How important is the reset shot in advanced pickleball?</h3>
+<div>
+<div>
+<p>The reset shot is a crucial skill in advanced pickleball, as it allows you to recover from disadvantageous positions and regain control during a hand battle. Executing consistent resets from any position on the court not only prevents point losses but also strategically positions you to take control of the game\&#8217;s tempo. It\&#8217;s a defensive maneuver that can shift the momentum of the match.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>How can power players succeed at the 4.5 level in pickleball?</h3>
+<div>
+<div>
+<p>Power players, such as former tennis athletes, need to adapt and expand their skill set to succeed at the 4.5 level. This includes consistently executing a precise third-shot drop, mastering transition play, and employing strategic dinking to outmaneuver opponents. The goal is to blend power with finesse and become a well-rounded player.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>How can I identify and develop my play style in pickleball?</h3>
+<div>
+<div>
+<p>Understanding your natural play style and working on less familiar techniques can facilitate your level jump. Whether it\&#8217;s enhancing your attack range, applying strategic spins, or mastering resets, focusing on these areas will prepare you for the challenges of advanced pickleball play. It\&#8217;s about broadening your approach and refining skills that will allow you to compete better at higher levels.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>How does effective communication contribute to successful doubles play in pickleball?</h3>
+<div>
+<div>
+<p>Clear communication between doubles partners is crucial for a successful team. Consistently discussing shot choices, preferred positions, and responsibilities during gameplay can greatly enhance team performance and coordination on the court.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>What is stacking in pickleball and how can it be beneficial?</h3>
+<div>
+<div>
+<p>Stacking is a technique where doubles partners stand on the same side of the court to maximize each player\&#8217;s strengths and mitigate their weaknesses. It requires determining which player has a stronger forehand and backhand and effectively shifting positions throughout the game.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>What are some smart shot selection strategies in advanced pickleball?</h3>
+<div>
+<div>
+<p>Advanced doubles play involves thoughtful shot selection that capitalizes on opponents\&#8217; weaknesses. This includes executing a well-placed third-shot drop, engaging in dinking rallies, and strategically attacking the middle of the court to create confusion and potential errors.</p>
+</div>
+</div>
+</div>
+<div>
+<h3>How can I elevate my pickleball game with advanced strategies?</h3>
+<div>
+<div>
+<p>By incorporating advanced strategies, such as effective communication, stacking, smart shot selection, and strategic positioning, you and your doubles partner can elevate your pickleball game to new heights. Practice these strategies to refine your gameplay and outsmart opponents on the court.</p>
+</div>
+</div>
+</div>
+</section>
+

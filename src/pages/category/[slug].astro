@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import categoriesData from '../../content/categories.json';
+
+export async function getStaticPaths() {
+  return categoriesData
+    .filter(cat => cat.count > 0)
+    .map((category) => ({
+      params: { slug: category.slug },
+      props: { category },
+    }));
+}
+
+const { category } = Astro.props;
+
+// Get posts for this category
+const postFiles = import.meta.glob('../../content/posts/*.md', { eager: true });
+const allPosts = Object.values(postFiles);
+const categoryPosts = allPosts
+  .filter((post) => post.frontmatter.categories?.includes(category.slug))
+  .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+---
+
+<Layout title={`${category.name} - Koala Pickleball`}>
+  <div style="max-width: 1200px; margin: 0 auto; padding: 3rem 2rem;">
+    <!-- Breadcrumbs -->
+    <nav style="margin-bottom: 2rem; font-size: 0.9rem;">
+      <a href="/" style="color: var(--color-accent);">Home</a>
+      <span style="margin: 0 0.5rem;">/</span>
+      <a href="/categories" style="color: var(--color-accent);">Categories</a>
+      <span style="margin: 0 0.5rem;">/</span>
+      <span style="color: var(--color-text-light);">{category.name}</span>
+    </nav>
+
+    <h1 style="font-size: 2.5rem; color: var(--color-primary); margin-bottom: 1rem;">
+      {category.name}
+    </h1>
+    <p style="color: var(--color-text-light); margin-bottom: 3rem;">
+      {category.count} articles in this category
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+      {categoryPosts.map((post) => (
+        <article style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          {post.frontmatter.featured_image && (
+            <img src={post.frontmatter.featured_image} alt={post.frontmatter.title} style="width: 100%; height: 200px; object-fit: cover;" />
+          )}
+          <div style="padding: 1.5rem;">
+            <h2 style="font-size: 1.2rem; margin-bottom: 0.5rem; line-height: 1.4;">
+              <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-primary); text-decoration: none;">
+                {post.frontmatter.title}
+              </a>
+            </h2>
+            <p style="color: var(--color-text-light); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+              {post.frontmatter.excerpt?.substring(0, 150)}...
+            </p>
+            <div style="font-size: 0.85rem; color: var(--color-text-light);">
+              {new Date(post.frontmatter.date).toLocaleDateString()}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout>

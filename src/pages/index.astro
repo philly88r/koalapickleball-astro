@@ -1,0 +1,114 @@
+---
+import Layout from '../layouts/Layout.astro';
+import categoriesData from '../content/categories.json';
+
+// Get all posts
+const postFiles = import.meta.glob('../content/posts/*.md', { eager: true });
+const allPosts = Object.values(postFiles);
+const sortedPosts = allPosts.sort((a, b) => 
+  new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+);
+
+// Get featured posts (first 6)
+const featuredPosts = sortedPosts.slice(0, 6);
+
+// Get recent posts (next 6)
+const recentPosts = sortedPosts.slice(6, 12);
+
+// Get categories
+const categories = categoriesData.filter(cat => cat.count > 0).slice(0, 8);
+---
+
+<Layout title="Koala Pickleball - Your Ultimate Pickleball Resource">
+  <!-- Hero Section -->
+  <section style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); color: white; padding: 4rem 0; text-align: center;">
+    <div style="max-width: 800px; margin: 0 auto; padding: 0 2rem;">
+      <h1 style="font-size: 3rem; margin-bottom: 1rem;">🐨 Koala Pickleball</h1>
+      <p style="font-size: 1.3rem; color: rgba(255,255,255,0.9); margin-bottom: 2rem;">
+        Your Ultimate Pickleball Resource - {allPosts.length}+ Articles, Guides, and Tips
+      </p>
+      <a href="/blog" style="display: inline-block; background: var(--color-accent); color: white; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s;">
+        Browse All Articles
+      </a>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section style="padding: 3rem 0; background: white;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Popular Categories</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+        {categories.map((category) => (
+          <a href={`/category/${category.slug}`} style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; text-decoration: none; color: var(--color-text); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid #dee2e6;">
+            <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-primary);">{category.name}</h3>
+            <p style="color: var(--color-text-light); font-size: 0.9rem;">{category.count} articles</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Posts Section -->
+  <section style="padding: 4rem 0;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Featured Articles</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+        {featuredPosts.map((post) => (
+          <article style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s;">
+            {post.frontmatter.featured_image && (
+              <img src={post.frontmatter.featured_image} alt={post.frontmatter.title} style="width: 100%; height: 200px; object-fit: cover;" />
+            )}
+            <div style="padding: 1.5rem;">
+              <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                {post.frontmatter.categories?.slice(0, 3).map((cat) => (
+                  <span style="background: var(--color-accent); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem;">{cat}</span>
+                ))}
+              </div>
+              <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-primary); text-decoration: none;">
+                  {post.frontmatter.title}
+                </a>
+              </h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+                {post.frontmatter.excerpt?.substring(0, 150)}...
+              </p>
+              <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--color-text-light);">
+                <span>By {post.frontmatter.author}</span>
+                <span>{new Date(post.frontmatter.date).toLocaleDateString()}</span>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section style="padding: 4rem 0; background: white;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Recent Articles</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+        {recentPosts.map((post) => (
+          <article style="border-bottom: 1px solid #e9ecef; padding-bottom: 1.5rem;">
+            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+              <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-primary); text-decoration: none;">
+                {post.frontmatter.title}
+              </a>
+            </h3>
+            <p style="color: var(--color-text-light); font-size: 0.9rem; margin-bottom: 0.5rem;">
+              {post.frontmatter.excerpt?.substring(0, 120)}...
+            </p>
+            <div style="font-size: 0.8rem; color: var(--color-text-light);">
+              {new Date(post.frontmatter.date).toLocaleDateString()}
+            </div>
+          </article>
+        ))}
+      </div>
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="/blog" style="display: inline-block; background: var(--color-primary); color: white; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; text-decoration: none;">
+          View All {allPosts.length} Articles
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
