@@ -9,105 +9,242 @@ const sortedPosts = allPosts.sort((a, b) =>
   new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
 );
 
-// Get featured posts (first 6)
-const featuredPosts = sortedPosts.slice(0, 6);
+// Get featured posts (first 8)
+const featuredPosts = sortedPosts.slice(0, 8);
 
 // Get recent posts (next 6)
-const recentPosts = sortedPosts.slice(6, 12);
+const recentPosts = sortedPosts.slice(8, 14);
 
-// Get categories
-const categories = categoriesData.filter(cat => cat.count > 0).slice(0, 8);
+// Get top categories
+const categories = categoriesData
+  .filter(cat => cat.count > 0)
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 6);
 ---
 
 <Layout title="Koala Pickleball - Your Ultimate Pickleball Resource">
   <!-- Hero Section -->
-  <section style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); color: white; padding: 4rem 0; text-align: center;">
-    <div style="max-width: 800px; margin: 0 auto; padding: 0 2rem;">
-      <h1 style="font-size: 3rem; margin-bottom: 1rem;">🐨 Koala Pickleball</h1>
-      <p style="font-size: 1.3rem; color: rgba(255,255,255,0.9); margin-bottom: 2rem;">
-        Your Ultimate Pickleball Resource - {allPosts.length}+ Articles, Guides, and Tips
-      </p>
-      <a href="/blog" style="display: inline-block; background: var(--color-accent); color: white; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.3s;">
-        Browse All Articles
-      </a>
+  <section style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); color: white; padding: 6rem 0; position: relative; overflow: hidden;">
+    <div style="position: absolute; inset: 0; opacity: 0.1;">
+      <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, #22c55e 0%, transparent 70%); animation: pulse 4s ease-in-out infinite;"></div>
+    </div>
+    
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); padding: 0.5rem 1rem; border-radius: 9999px; margin-bottom: 2rem;">
+          <span style="color: #22c55e; font-weight: 600; font-size: 0.875rem;">🎾 {allPosts.length}+ Articles</span>
+        </div>
+        
+        <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 700; margin-bottom: 1.5rem; line-height: 1.1;">
+          Master Your <span style="background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Pickleball</span> Game
+        </h1>
+        
+        <p style="font-size: clamp(1.125rem, 2vw, 1.5rem); color: rgba(255,255,255,0.8); margin-bottom: 2.5rem; line-height: 1.7;">
+          Expert guides, equipment reviews, and strategies from the pickleball community. Everything you need to elevate your game.
+        </p>
+        
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="/blog" class="btn btn-primary" style="padding: 1rem 2rem; font-size: 1.1rem;">
+            Explore Articles
+          </a>
+          <a href="/categories" class="btn btn-secondary" style="padding: 1rem 2rem; font-size: 1.1rem;">
+            Browse Categories
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.1; }
+        50% { transform: scale(1.1); opacity: 0.15; }
+      }
+    </style>
+  </section>
+
+  <!-- Stats Bar -->
+  <section style="background: white; padding: 2rem 0; border-bottom: 1px solid #e2e8f0;">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+        <div>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-accent); margin-bottom: 0.25rem;">{allPosts.length}+</div>
+          <div style="color: var(--color-text-light); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Expert Articles</div>
+        </div>
+        <div>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-accent); margin-bottom: 0.25rem;">{categories.length}</div>
+          <div style="color: var(--color-text-light); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Categories</div>
+        </div>
+        <div>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-accent); margin-bottom: 0.25rem;">50K+</div>
+          <div style="color: var(--color-text-light); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">Monthly Readers</div>
+        </div>
+        <div>
+          <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-accent); margin-bottom: 0.25rem;">Daily</div>
+          <div style="color: var(--color-text-light); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">New Content</div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Categories Section -->
-  <section style="padding: 3rem 0; background: white;">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
-      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Popular Categories</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
-        {categories.map((category) => (
-          <a href={`/category/${category.slug}`} style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 12px; text-decoration: none; color: var(--color-text); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid #dee2e6;">
-            <h3 style="font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-primary);">{category.name}</h3>
-            <p style="color: var(--color-text-light); font-size: 0.9rem;">{category.count} articles</p>
-          </a>
-        ))}
+  <section style="padding: 5rem 0; background: linear-gradient(180deg, #f8fafc 0%, white 100%);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-primary);">Browse by Category</h2>
+        <p style="color: var(--color-text-light); font-size: 1.125rem; max-width: 600px; margin: 0 auto;">
+          Find exactly what you're looking for with our curated categories
+        </p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        {categories.map((category, index) => {
+          const gradients = [
+            'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)',
+            'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)',
+            'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+            'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)',
+            'linear-gradient(135deg, #ec4899 0%, #db2777 100%)',
+            'linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)',
+          ];
+          const gradient = gradients[index % gradients.length];
+          
+          return (
+            <a href={`/category/${category.slug}`} style="group">
+              <div style="background: white; border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-md); transition: all 0.3s ease; border: 1px solid #e2e8f0; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: {gradient};"></div>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                  <h3 style="font-size: 1.25rem; color: var(--color-primary); font-weight: 700;">{category.name}</h3>
+                  <span style="background: rgba(34, 197, 94, 0.1); color: var(--color-accent-dark); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600;">
+                    {category.count} articles
+                  </span>
+                </div>
+                <div style="display: flex; align-items: center; color: var(--color-accent); font-weight: 600; font-size: 0.875rem;">
+                  Explore
+                  <svg xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px; margin-left: 0.5rem; transition: transform 0.2s;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </div>
   </section>
 
-  <!-- Featured Posts Section -->
-  <section style="padding: 4rem 0;">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
-      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Featured Articles</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem;">
+  <!-- Featured Articles -->
+  <section style="padding: 5rem 0; background: white;">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem;">
+        <div>
+          <h2 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--color-primary);">Featured Articles</h2>
+          <p style="color: var(--color-text-light); font-size: 1.125rem;">Hand-picked guides to improve your game</p>
+        </div>
+        <a href="/blog" class="btn btn-secondary" style="display: none;">
+          View All
+        </a>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem;">
         {featuredPosts.map((post) => (
-          <article style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s;">
+          <article class="card">
             {post.frontmatter.featured_image && (
-              <img src={post.frontmatter.featured_image} alt={post.frontmatter.title} style="width: 100%; height: 200px; object-fit: cover;" />
+              <div style="position: relative; height: 220px; overflow: hidden;">
+                <img 
+                  src={post.frontmatter.featured_image} 
+                  alt={post.frontmatter.title}
+                  style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;"
+                />
+                <div style="position: absolute; top: 1rem; left: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                  {post.frontmatter.categories?.slice(0, 2).map((cat) => (
+                    <span class="badge badge-green">{cat}</span>
+                  ))}
+                </div>
+              </div>
             )}
             <div style="padding: 1.5rem;">
-              <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
-                {post.frontmatter.categories?.slice(0, 3).map((cat) => (
-                  <span style="background: var(--color-accent); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem;">{cat}</span>
-                ))}
+              <div style="display: flex; align-items: center; gap: 0.5rem; color: var(--color-text-light); font-size: 0.875rem; margin-bottom: 0.75rem;">
+                <span>By {post.frontmatter.author}</span>
+                <span>•</span>
+                <span>{new Date(post.frontmatter.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
               </div>
-              <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; line-height: 1.4;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem; line-height: 1.4;">
+                <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-primary); text-decoration: none; transition: color 0.2s;">
+                  {post.frontmatter.title}
+                </a>
+              </h3>
+              <p style="color: var(--color-text-light); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                {post.frontmatter.excerpt}
+              </p>
+              <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-accent-dark); font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.25rem;">
+                Read More
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="/blog" class="btn btn-primary" style="padding: 1rem 2.5rem;">
+          View All {allPosts.length} Articles
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Articles -->
+  <section style="padding: 5rem 0; background: linear-gradient(180deg, #f8fafc 0%, white 100%);">
+    <div class="container">
+      <h2 style="font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Recently Published</h2>
+      
+      <div style="display: grid; gap: 1.5rem;">
+        {recentPosts.map((post) => (
+          <article style="background: white; border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm); border: 1px solid #e2e8f0; display: grid; grid-template-columns: auto 1fr auto; gap: 1.5rem; align-items: center;">
+            <div style="min-width: 60px;">
+              <span style="font-size: 2rem; opacity: 0.5;">📝</span>
+            </div>
+            <div>
+              <h3 style="font-size: 1.125rem; margin-bottom: 0.5rem;">
                 <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-primary); text-decoration: none;">
                   {post.frontmatter.title}
                 </a>
               </h3>
-              <p style="color: var(--color-text-light); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
-                {post.frontmatter.excerpt?.substring(0, 150)}...
-              </p>
-              <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--color-text-light);">
+              <div style="display: flex; align-items: center; gap: 1rem; color: var(--color-text-light); font-size: 0.875rem;">
                 <span>By {post.frontmatter.author}</span>
+                <span style="width: 4px; height: 4px; background: var(--color-text-light); border-radius: 50%;"></span>
                 <span>{new Date(post.frontmatter.date).toLocaleDateString()}</span>
               </div>
             </div>
+            <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-accent-dark); font-weight: 600; white-space: nowrap;">
+              Read →
+            </a>
           </article>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- Recent Posts Section -->
-  <section style="padding: 4rem 0; background: white;">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
-      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--color-primary);">Recent Articles</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
-        {recentPosts.map((post) => (
-          <article style="border-bottom: 1px solid #e9ecef; padding-bottom: 1.5rem;">
-            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">
-              <a href={`/blog/${post.frontmatter.slug}`} style="color: var(--color-primary); text-decoration: none;">
-                {post.frontmatter.title}
-              </a>
-            </h3>
-            <p style="color: var(--color-text-light); font-size: 0.9rem; margin-bottom: 0.5rem;">
-              {post.frontmatter.excerpt?.substring(0, 120)}...
-            </p>
-            <div style="font-size: 0.8rem; color: var(--color-text-light);">
-              {new Date(post.frontmatter.date).toLocaleDateString()}
-            </div>
-          </article>
-        ))}
-      </div>
-      <div style="text-align: center; margin-top: 3rem;">
-        <a href="/blog" style="display: inline-block; background: var(--color-primary); color: white; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; text-decoration: none;">
-          View All {allPosts.length} Articles
-        </a>
+  <!-- Newsletter Section -->
+  <section style="padding: 5rem 0; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white;">
+    <div class="container">
+      <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: white;">Stay in the Loop</h2>
+        <p style="color: rgba(255,255,255,0.8); font-size: 1.125rem; margin-bottom: 2rem;">
+          Get the latest pickleball tips, gear reviews, and strategies delivered to your inbox.
+        </p>
+        <div style="display: flex; gap: 1rem; max-width: 500px; margin: 0 auto;">
+          <input 
+            type="email" 
+            placeholder="Enter your email" 
+            style="flex: 1; padding: 1rem 1.5rem; border-radius: var(--radius-md); border: none; font-size: 1rem;"
+          />
+          <button class="btn btn-primary" style="padding: 1rem 2rem; white-space: nowrap;">
+            Subscribe
+          </button>
+        </div>
       </div>
     </div>
   </section>
